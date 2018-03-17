@@ -13,6 +13,7 @@
 		EDF64B95205D70E0006F5214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF64B94205D70E0006F5214 /* Assets.xcassets */; };
 		EDF64B98205D70E0006F5214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF64B96205D70E0006F5214 /* LaunchScreen.storyboard */; };
 		EDF64BA3205D7BCF006F5214 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64BA2205D7BCF006F5214 /* CategoryCell.swift */; };
+		EDF64BA5205DA902006F5214 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64BA4205DA902006F5214 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EDF64B97205D70E0006F5214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF64B99205D70E0006F5214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF64BA2205D7BCF006F5214 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		EDF64BA4205DA902006F5214 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		EDF64BA0205D7B89006F5214 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EDF64BA4205DA902006F5214 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				EDF64B90205D70E0006F5214 /* CategoriesVC.swift in Sources */,
 				EDF64B8E205D70E0006F5214 /* AppDelegate.swift in Sources */,
 				EDF64BA3205D7BCF006F5214 /* CategoryCell.swift in Sources */,
+				EDF64BA5205DA902006F5214 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
