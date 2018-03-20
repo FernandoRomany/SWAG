@@ -30,19 +30,23 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="soM-nR-1Yo">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="soM-nR-1Yo">
                                 <rect key="frame" x="0.0" y="122.5" width="375" height="544.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="173" id="LBo-QR-Cgg" customClass="CategoryCell" customModule="SWAG" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="173" id="LBo-QR-Cgg" customClass="CategoryCell" customModule="SWAG" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="173"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LBo-QR-Cgg" id="qcj-XP-mts">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="172.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="173"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="LgG-GL-AUe">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="172.5"/>
+                                                    <rect key="frame" x="0.0" y="3.5" width="375" height="166.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="375" id="IR1-MY-yXJ"/>
+                                                        <constraint firstAttribute="height" constant="166.5" id="al9-bj-ZzV"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nd4-jD-oAb">
                                                     <rect key="frame" x="159" y="71.5" width="57.5" height="30.5"/>
@@ -54,10 +58,12 @@
                                             <constraints>
                                                 <constraint firstItem="Nd4-jD-oAb" firstAttribute="centerY" secondItem="qcj-XP-mts" secondAttribute="centerY" id="2an-yZ-idT"/>
                                                 <constraint firstItem="Nd4-jD-oAb" firstAttribute="centerX" secondItem="qcj-XP-mts" secondAttribute="centerX" id="DCo-vi-iNu"/>
-                                                <constraint firstAttribute="bottom" secondItem="LgG-GL-AUe" secondAttribute="bottom" id="MCI-rf-hLl"/>
+                                                <constraint firstAttribute="bottom" secondItem="LgG-GL-AUe" secondAttribute="bottom" constant="3" id="MCI-rf-hLl"/>
+                                                <constraint firstItem="LgG-GL-AUe" firstAttribute="centerX" secondItem="qcj-XP-mts" secondAttribute="centerX" id="RPq-EP-e1M"/>
                                                 <constraint firstAttribute="trailing" secondItem="LgG-GL-AUe" secondAttribute="trailing" id="S2x-tW-3kL"/>
+                                                <constraint firstItem="LgG-GL-AUe" firstAttribute="centerY" secondItem="qcj-XP-mts" secondAttribute="centerY" id="dD2-1p-erL"/>
                                                 <constraint firstItem="LgG-GL-AUe" firstAttribute="leading" secondItem="qcj-XP-mts" secondAttribute="leading" id="sKx-BU-IpP"/>
-                                                <constraint firstItem="LgG-GL-AUe" firstAttribute="top" secondItem="qcj-XP-mts" secondAttribute="top" id="tP8-yM-b7A"/>
+                                                <constraint firstItem="LgG-GL-AUe" firstAttribute="top" secondItem="qcj-XP-mts" secondAttribute="top" constant="3" id="tP8-yM-b7A"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
