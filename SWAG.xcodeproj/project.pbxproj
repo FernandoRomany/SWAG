@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED12361B206057A0001032A8 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12361A206057A0001032A8 /* DetailsVC.swift */; };
 		ED58453620645C3E00699185 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED58453520645C3E00699185 /* ProductCell.swift */; };
+		ED58453820645FC100699185 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED58453720645FC100699185 /* Product.swift */; };
 		ED8C54812061B2A8001EF690 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C54802061B2A8001EF690 /* DataService.swift */; };
 		EDF64B8E205D70E0006F5214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64B8D205D70E0006F5214 /* AppDelegate.swift */; };
 		EDF64B90205D70E0006F5214 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64B8F205D70E0006F5214 /* CategoriesVC.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		ED12361A206057A0001032A8 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 		ED58453520645C3E00699185 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		ED58453720645FC100699185 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		ED8C54802061B2A8001EF690 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EDF64B8A205D70E0006F5214 /* SWAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF64B8D205D70E0006F5214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				EDF64BA4205DA902006F5214 /* Category.swift */,
+				ED58453720645FC100699185 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF64B90205D70E0006F5214 /* CategoriesVC.swift in Sources */,
+				ED58453820645FC100699185 /* Product.swift in Sources */,
 				ED12361B206057A0001032A8 /* DetailsVC.swift in Sources */,
 				EDF64B8E205D70E0006F5214 /* AppDelegate.swift in Sources */,
 				ED8C54812061B2A8001EF690 /* DataService.swift in Sources */,
