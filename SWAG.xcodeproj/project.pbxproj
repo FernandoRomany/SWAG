@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED12361B206057A0001032A8 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12361A206057A0001032A8 /* DetailsVC.swift */; };
+		ED12361B206057A0001032A8 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12361A206057A0001032A8 /* ProductsVC.swift */; };
 		ED58453620645C3E00699185 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED58453520645C3E00699185 /* ProductCell.swift */; };
 		ED58453820645FC100699185 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED58453720645FC100699185 /* Product.swift */; };
 		ED8C54812061B2A8001EF690 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C54802061B2A8001EF690 /* DataService.swift */; };
@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED12361A206057A0001032A8 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		ED12361A206057A0001032A8 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		ED58453520645C3E00699185 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		ED58453720645FC100699185 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		ED8C54802061B2A8001EF690 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		EDF64B9F205D7B78006F5214 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				ED12361A206057A0001032A8 /* DetailsVC.swift */,
+				ED12361A206057A0001032A8 /* ProductsVC.swift */,
 				EDF64B8F205D70E0006F5214 /* CategoriesVC.swift */,
 			);
 			path = Controller;
@@ -188,7 +188,7 @@
 			files = (
 				EDF64B90205D70E0006F5214 /* CategoriesVC.swift in Sources */,
 				ED58453820645FC100699185 /* Product.swift in Sources */,
-				ED12361B206057A0001032A8 /* DetailsVC.swift in Sources */,
+				ED12361B206057A0001032A8 /* ProductsVC.swift in Sources */,
 				EDF64B8E205D70E0006F5214 /* AppDelegate.swift in Sources */,
 				ED8C54812061B2A8001EF690 /* DataService.swift in Sources */,
 				EDF64BA3205D7BCF006F5214 /* CategoryCell.swift in Sources */,

@@ -92,17 +92,17 @@
                     <navigationItem key="navigationItem" title="SWAG" id="XkW-QC-p9Y"/>
                     <connections>
                         <outlet property="categoryTabel" destination="soM-nR-1Yo" id="c8s-as-FAI"/>
-                        <segue destination="Ght-71-gPT" kind="show" id="ENo-N7-8AX"/>
+                        <segue destination="Ght-71-gPT" kind="show" identifier="ProductsSegue" id="ENo-N7-8AX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="364" y="29.23538230884558"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="cvO-PR-Mig">
             <objects>
-                <viewController id="Ght-71-gPT" sceneMemberID="viewController">
+                <viewController id="Ght-71-gPT" customClass="ProductsVC" customModule="SWAG" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LgM-yE-wC7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
