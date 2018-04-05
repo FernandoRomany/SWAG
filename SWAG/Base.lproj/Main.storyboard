@@ -123,7 +123,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Lp6-Xy-8qv" customClass="ProductCell" customModule="SWAG" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="Lp6-Xy-8qv" customClass="ProductCell" customModule="SWAG" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="178" height="272"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -188,6 +188,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LdP-uB-dDq"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollection" destination="3qX-IA-69w" id="uu7-So-Kvw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3J1-qe-SUI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
